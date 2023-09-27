@@ -1,0 +1,58 @@
+ketersediaan = "Daging ayam"
+
+if ketersediaan == "Daging ayam":
+    print("Ibu membeli dan memasak ayam")
+else:
+    print("Ibu membeli dan memasak tempe")
+
+"""
+Output:
+Ibu membeli dan memasak ayam
+"""
+
+score = 100
+
+if score == 100:
+    print(f"Nilai Anda sempurna!{score}")
+else:
+    print("kamu Bodoh")
+
+"""
+Output:
+Nilai Anda sempurna!
+"""
+
+tinggi= input ("Masukan Tinggi Badan Anda")
+tinggi_badan=int(tinggi)
+if tinggi_badan >=160:
+    print("Anda boleh menaiki roller coaster")
+else:
+    print("Anda tidak diperbolehkan menaiki roller coaster")
+
+"""
+Output:
+Anda tidak diperbolehkan menaiki roller coaster
+"""
+
+
+
+nilai=input("Masukan Nilai Anda:")
+#
+prilaku=input("Prilaku Anda Baik/Buruk")
+if nilai>=80 :
+   if  prilaku == 'baik':
+            print("Selamat! Anda mendapat nilai A dan telah berkelakuan baik")
+            print("Pertahankan!")
+   elif  prilaku =='buruk':
+         print("yahh")
+elif nilai>=80 and prilaku != 'baik':
+   print("Kamu mendapatkan nilai A, tetapi perilaku Anda kurang baik")
+   print("Perbaiki lagi ya!")
+else:
+   print("Yuk belajar lebih giat lagi!")
+
+"""
+Output:
+Kamu mendapatkan nilai A, tetapi perilaku Anda kurang baik
+Perbaiki lagi ya!
+"""
